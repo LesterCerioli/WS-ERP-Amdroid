@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Users\\leste\\source\\repos\\WS001\\WS001\\src\\Modules\\WS.Module.Payments\\WS.Module.Payments.csproj": {}
+  },
+  "projects": {
+    "E:\\Users\\leste\\source\\repos\\WS001\\WS001\\src\\Modules\\WS.Module.Payments\\WS.Module.Payments.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Users\\leste\\source\\repos\\WS001\\WS001\\src\\Modules\\WS.Module.Payments\\WS.Module.Payments.csproj",
+        "projectName": "WS.Module.Payments",
+        "projectPath": "E:\\Users\\leste\\source\\repos\\WS001\\WS001\\src\\Modules\\WS.Module.Payments\\WS.Module.Payments.csproj",
+        "packagesPath": "C:\\Users\\leste\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\leste\\source\\repos\\WS001\\WS001\\src\\Modules\\WS.Module.Payments\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\leste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.2.0.5, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4755AD9F-B449-4898-BCEB-A973E06E253F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{41BB0895-4416-444C-862B-9A9AF947C28A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS.Module.Payments", "src\Modules\WS.Module.Payments\WS.Module.Payments.csproj", "{D1C19290-E9F3-4205-9754-CDBC692272BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile", "Mobile", "{B7F630E6-B40A-422A-BCB2-777533589988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS.AndroidApp", "src\Mobile\WS.AndroidApp\WS.AndroidApp.csproj", "{9EF40361-21DC-4644-982D-B9330DCE7586}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1C19290-E9F3-4205-9754-CDBC692272BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C19290-E9F3-4205-9754-CDBC692272BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C19290-E9F3-4205-9754-CDBC692272BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C19290-E9F3-4205-9754-CDBC692272BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF40361-21DC-4644-982D-B9330DCE7586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF40361-21DC-4644-982D-B9330DCE7586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF40361-21DC-4644-982D-B9330DCE7586}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9EF40361-21DC-4644-982D-B9330DCE7586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF40361-21DC-4644-982D-B9330DCE7586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF40361-21DC-4644-982D-B9330DCE7586}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41BB0895-4416-444C-862B-9A9AF947C28A} = {4755AD9F-B449-4898-BCEB-A973E06E253F}
+		{D1C19290-E9F3-4205-9754-CDBC692272BF} = {41BB0895-4416-444C-862B-9A9AF947C28A}
+		{B7F630E6-B40A-422A-BCB2-777533589988} = {4755AD9F-B449-4898-BCEB-A973E06E253F}
+		{9EF40361-21DC-4644-982D-B9330DCE7586} = {B7F630E6-B40A-422A-BCB2-777533589988}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {087CACF9-FA61-4D00-89B4-FD3AA7DA6864}
+	EndGlobalSection
+EndGlobal
